@@ -1,12 +1,12 @@
 body{
-
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     font-family: 'Inter Tight', sans-serif;
     font-family: 'Lato', sans-serif;
-    
+    background-color: black;
 } 
 body::before{
     content: "";
@@ -15,7 +15,7 @@ body::before{
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.5;
+    opacity: 0.2;
     background-image: url("blockchain.jpeg");
     background-size: cover;
 
